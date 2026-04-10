@@ -1,0 +1,10 @@
+get /Communicator/
+post /Communicator/:serial
+get /Communicator/:serial
+
+// routes (defines.h)
+PATH_PLOTS         = "/api/v1/meterhistory/plots/"
+PATH_COMMUNICATOR  = "/api/v1/Communicator/"
+PATH_REGISTERED    = "/api/v1/meter/"
+PATH_ERROR_METER   = "/api/v1/meterhistory/errorMeter/"
+PATH_SERIAL_STATUS = "/api/v1/meter/serial/"
